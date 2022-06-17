@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">6037</string>
+    <string name="snackBar_copied">Copied!</string>
+    <string name="radioButton_fa2en">Persian to English</string>
+    <string name="radioButton_en2fa">English to Persian</string>
+    <string name="switch_onlyNumber">Remove Non-Numeric</string>
+    <string name="about">About</string>
+    <string name="auto_save">Auto Save</string>
+
+    <string name="rate_app">Rate</string>
+    <string name="share_app">Share</string>
+    <string name="mail">Contact</string>
+    <string name="other_apps">Other Apps</string>
+    <string name="privacy_policy">Privacy policy</string>
+
+    <string name="rate_please_title">Rate me!</string>
+    <string name="rate_body">Would u like to rate this app?</string>
+    <string name="do_you_like_this_app">Are you happy with this app?</string>
+    <string name="do_u_want_to_tell_us_why">Can you tell me why you don\'t like it?</string>
+    <string name="rate_yes">Yes</string>
+    <string name="rate_no">No</string>
+
+
+    <string name="migrate_available">This app is no longer supported. please check new version.</string>
+    <string name="update_available">Update available!</string>
+    <string name="update_later">Not now</string>
+    <string name="update_now">Update now</string>
+    <string name="download">Download</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="me">
+        Developer:
+        Hessam Ahmadi
+        \n
+        hessam71d@gmail.com
+        \n\n
+
+                    Spring 2022
+    </string>
+
+    <string name="sample_input">۱۲۳۴۵۶۷۸۹۰</string>
+
+</resources>

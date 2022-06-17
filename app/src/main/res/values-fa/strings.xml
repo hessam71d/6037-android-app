@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">6037</string>
+    <string name="snackBar_copied">کپی شد</string>
+    <string name="radioButton_fa2en">فارسی به انگلیسی</string>
+    <string name="radioButton_en2fa">انگلیسی به فارسی</string>
+    <string name="switch_onlyNumber">حذف غیر عددی</string>
+    <string name="about">درباره</string>
+    <string name="auto_save">ذخیره خودکار</string>
+
+
+    <string name="rate_app">امتیاز دادن به برنامه</string>
+    <string name="share_app">اشتراک‌گذاری این برنامه با دوستان</string>
+    <string name="mail">ایمیل به سازنده</string>
+    <string name="other_apps">برنامه‌های دیگر ما</string>
+    <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
+
+    <string name="rate_please_title">نظرسنجی</string>
+    <string name="rate_body">میشه به این برنامه امتیاز بدید؟</string>
+    <string name="do_you_like_this_app">آیا از این برنامه راضی هستید؟</string>
+    <string name="do_u_want_to_tell_us_why">میشه انتقادات خودتون رو به ما بگید؟</string>
+    <string name="rate_yes">بله</string>
+    <string name="rate_no">خیر</string>
+
+
+    <string name="migrate_available">این برنامه دیگر پشتیبانی نمی‌شود و نیاز است تا برنامه جدید را دریافت کنید</string>
+    <string name="update_available">نسخه جدید برنامه منتشر شده است!</string>
+    <string name="update_later">الان نه</string>
+    <string name="update_now">آپدیت</string>
+    <string name="download">دریافت</string>
+    <string name="exit">خروج</string>
+
+
+    <string name="sample_input">۱۲۳۴۵۶۷۸۹۰</string>
+
+
+
+
+    <string name="me">
+        توسعه دهنده:
+        حسام احمدی
+        \n
+        hessam71d@gmail.com
+        \n\n
+
+
+                    بهار 1401
+
+    </string>
+</resources>

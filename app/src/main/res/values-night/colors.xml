@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="teal_200">#70E4A4</color>
+    <color name="purple_200">#70E4A4</color>
+
+    <color name="editText_background">#313237</color>
+
+    <color name="back_btn">#E3E3E3</color>
+
+
+    <color name="tv_values">#C8C8C8</color>
+
+
+</resources>
