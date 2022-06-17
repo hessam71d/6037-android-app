@@ -5,6 +5,7 @@
     <string name="radioButton_en2fa">English to Persian</string>
     <string name="switch_onlyNumber">Remove Non-Numeric</string>
     <string name="about">About</string>
+    <string name="version">Version</string>
     <string name="auto_save">Auto Save</string>
 
     <string name="rate_app">Rate</string>

@@ -1,20 +1,21 @@
 package com.hessamahmadi71d.numad
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class AboutActivity : AppCompatActivity() {
-
-    lateinit var imgBack: ImageView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
-        imgBack = findViewById(R.id.img_back)
+
+        val imgBack: ImageView = findViewById(R.id.img_back)
         imgBack.setOnClickListener(View.OnClickListener { finish() })
+        val tvVersion: TextView = findViewById(R.id.tvVersion)
+        tvVersion.text = getString(R.string.version) + " " + BuildConfig.VERSION_NAME
     }
 
     fun rate(view: View?) {
@@ -28,7 +29,6 @@ class AboutActivity : AppCompatActivity() {
     fun share(view: View?) {
         G.shareApp(this)
     }
-
 
 
 }
