@@ -6,6 +6,7 @@ import android.content.Context
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.ImageView
@@ -72,13 +73,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        if (sharedPreferences.getInt("rdEn2Fa", 0) == 0) {
-
-            tbtn.check(R.id.btnFA2EN)
-
-        } else {
+        if (sharedPreferences.getInt("rdEn2Fa", 0) == 1) {
             tbtn.check(R.id.btnEN2FA)
-
+        } else {
+            tbtn.check(R.id.btnFA2EN)
         }
     }
 
@@ -163,14 +161,16 @@ class MainActivity : AppCompatActivity() {
 
 
         tbtn.addOnButtonCheckedListener { group, checkedId, isChecked ->
-            if (checkedId == R.id.btnEN2FA) {
-                sharedPreferences.edit().putInt("rdEn2Fa", 1).apply()
-                convert()
-            } else {
-                sharedPreferences.edit().putInt("rdEn2Fa", 0).apply()
-                convert()
-            }
-
+            // this if is necessary for android below 11 otherwise all items will be called!
+          if (isChecked){
+              if (checkedId == R.id.btnEN2FA) {
+                  sharedPreferences.edit().putInt("rdEn2Fa", 1).apply()
+                  convert()
+              } else {
+                  sharedPreferences.edit().putInt("rdEn2Fa", 0).apply()
+                  convert()
+              }
+          }
         }
 
 
@@ -199,7 +199,7 @@ class MainActivity : AppCompatActivity() {
                 .replace("۸", "8")
                 .replace("۹", "9")
 
-                    // arabic
+                // arabic
                 .replace("٠", "0")
                 .replace("١", "1")
                 .replace("٢", "2")

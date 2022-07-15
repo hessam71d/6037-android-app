@@ -14,9 +14,11 @@
         android:theme="@style/Theme.NumConverter">
         <activity
             android:name=".AboutActivity"
+            android:launchMode="singleTask"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
             android:exported="true"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>

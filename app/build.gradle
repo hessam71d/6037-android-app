@@ -9,8 +9,8 @@ android {
         applicationId "com.hessamahmadi71d.numad"
         minSdk 23
         targetSdk 33
-        versionCode 4
-        versionName "1.04"
+        versionCode 5
+        versionName "1.05"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
