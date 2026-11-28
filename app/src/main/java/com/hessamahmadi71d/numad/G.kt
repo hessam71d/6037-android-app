@@ -90,7 +90,7 @@ class G : Application() {
         fun mail(context: Context) {
             val emailIntent = Intent(
                 Intent.ACTION_SENDTO,
-                Uri.parse("mailto:" + Uri.encode("hessam71d@gmail.com"))
+                Uri.parse("mailto:" + Uri.encode("hessamahmadi71d@gmail.com"))
             )
             emailIntent.putExtra(
                 Intent.EXTRA_SUBJECT,
